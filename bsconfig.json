@@ -1,0 +1,22 @@
+{
+  "name": "your-project-name",
+  "sources": [
+    {
+      "dir": "app",
+      "subdirs": true
+    },
+    {
+      "dir": "bindings",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "jsx": { "version": 4, "mode": "automatic" },
+  "bs-dependencies": ["@rescript/react"]
+}
