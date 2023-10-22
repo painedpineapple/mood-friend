@@ -2,7 +2,11 @@
   "name": "your-project-name",
   "sources": [
     {
-      "dir": "app",
+      "dir": "web-ui",
+      "subdirs": true
+    },
+    {
+      "dir": "api",
       "subdirs": true
     },
     {

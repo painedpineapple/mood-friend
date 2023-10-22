@@ -177,3 +177,5 @@ dist
 
 *.bs.js
 lib/**
+
+https-cert/**

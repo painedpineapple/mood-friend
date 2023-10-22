@@ -2,7 +2,9 @@
   "name": "mood-friend",
   "scripts": {
     "res:build": "rescript",
-    "res:dev": "rescript build -w"
+    "res:dev": "rescript build -w",
+    "api:dev": "",
+    "init-local-ssl": "mkdir -p ./https-cert; openssl req -x509 -out ./https-cert/localhost.pem -new -nodes -keyout ./https-cert/localhost-key.pem -newkey rsa:2048  -subj '/C=US/ST=California/L=San Francisco/O=MyOrg/OU=MyDept/CN=localhost';"
   },
   "devDependencies": {
     "bun-types": "latest",
