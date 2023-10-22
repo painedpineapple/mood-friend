@@ -1,6 +1,7 @@
 {
   "name": "mood-friend",
   "scripts": {
+    "web-ui:build": "bun build ./web-ui/WebUi.js --outdir ./web-ui/build",
     "res:build": "rescript",
     "res:dev": "rescript build -w",
     "api:dev": "",
