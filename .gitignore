@@ -179,3 +179,8 @@ dist
 lib/**
 
 https-cert/**
+
+/.cache
+**/build/**
+**/public/build
+.env

@@ -1,12 +1,8 @@
 {
-  "name": "your-project-name",
+  "name": "mood-friend",
   "sources": [
     {
-      "dir": "web-ui",
-      "subdirs": true
-    },
-    {
-      "dir": "api",
+      "dir": "packages",
       "subdirs": true
     },
     {

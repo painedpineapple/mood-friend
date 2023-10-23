@@ -1,10 +1,15 @@
 {
   "name": "mood-friend",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "web-ui:build": "bun build ./web-ui/WebUi.js --outdir ./web-ui/build",
     "res:build": "rescript",
     "res:dev": "rescript build -w",
-    "api:dev": "",
+    "web:dev": "cd packages/web && bun dev",
+    "web:build": "cd packages/web && bun build",
+    "web:start": "cd packages/web && bun start",
+    "api:dev": "cd packages/api && bun run ./MoodApi.bs.js",
     "init-local-ssl": "mkdir -p ./https-cert; openssl req -x509 -out ./https-cert/localhost.pem -new -nodes -keyout ./https-cert/localhost-key.pem -newkey rsa:2048  -subj '/C=US/ST=California/L=San Francisco/O=MyOrg/OU=MyDept/CN=localhost';"
   },
   "devDependencies": {
