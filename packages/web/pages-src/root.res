@@ -13,3 +13,5 @@ let make = () => {
     </body>
   </html>
 }
+
+let default = make

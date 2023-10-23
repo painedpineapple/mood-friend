@@ -4,6 +4,7 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "concurrently --raw \"npm run res:dev\" \"npm run web:dev\" \"npm run api:dev\"",
     "res:build": "rescript",
     "res:dev": "rescript build -w",
     "web:dev": "cd packages/web && bun dev",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "bun-types": "latest",
+    "concurrently": "^8.2.2",
     "husky": "^8.0.3"
   },
   "peerDependencies": {
@@ -23,6 +25,8 @@
     "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^18.0.0",
     "@rescript/react": "^0.11.0",
+    "@solana/web3.js": "experimental",
+    "helius-sdk": "^1.2.1",
     "rescript": "^10.1.4"
   }
 }
