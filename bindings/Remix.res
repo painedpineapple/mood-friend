@@ -27,3 +27,8 @@ module LiveReload = {
   @module("@remix-run/react") @react.component
   external make: (~port: int=?) => React.element = "LiveReload"
 }
+
+module CssBundle = {
+  @module("@remix-run/css-bundle") @val
+  external ref: string = "cssBundleHref"
+}

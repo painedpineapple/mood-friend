@@ -8,8 +8,4 @@ export default {
     "**/*.css",
     "**/*.test.{js,jsx,ts,tsx}",
   ],
-  postcss: true,
-  dev: {
-    manual: true,
-  },
 };

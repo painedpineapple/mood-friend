@@ -1,6 +1,7 @@
 %%raw(`
-  import styles from "../../../styles/styles.build.css"
-  export const links = () => [{ rel: 'stylesheet', href: styles }]
+  import themeCss from "../web.css";
+
+  export const links = () => [{ rel: "stylesheet", href: themeCss }]
 `)
 
 @react.component
@@ -22,3 +23,7 @@ let make = () => {
     </body>
   </html>
 }
+
+// TODO:
+// 1. live reload not working
+// 2. setup solana wallet adapter
