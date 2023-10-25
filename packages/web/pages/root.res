@@ -1,5 +1,5 @@
 %%raw(`
-  import themeCss from "../web.css";
+  import themeCss from "../../../styles/styles.build.css";
 
   export const links = () => [{ rel: "stylesheet", href: themeCss }]
 `)

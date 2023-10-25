@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  content: ["./packages/**/*.{mjs,bs.js,js,res}"],
   theme: {
     screens: {
       sm: "480px",

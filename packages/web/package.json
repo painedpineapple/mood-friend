@@ -18,8 +18,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.1.0",
-    "@remix-run/eslint-config": "^2.1.0"
+    "@remix-run/dev": "^2.1.0"
   },
   "engines": {
     "node": ">=18.0.0"

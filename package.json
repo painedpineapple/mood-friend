@@ -21,8 +21,9 @@
     "husky": "^8.0.3"
   },
   "scripts": {
-    "dev": "bun res:build && concurrently --raw \"bun res:dev\" \"bun web:dev\" \"bun api:dev\"",
+    "dev": "bun res:build && concurrently --raw \"bun css:dev\" \"bun res:dev\" \"bun web:dev\" \"bun api:dev\"",
     "clean": "bun res:clean && rm -rf ./node_modules",
+    "css:dev": "npx tailwindcss -i ./styles/styles.src.css -o ./styles/styles.build.css --watch",
     "res:build": "rescript",
     "res:clean": "rescript clean",
     "res:dev": "rescript build -w",
