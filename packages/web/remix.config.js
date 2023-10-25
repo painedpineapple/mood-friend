@@ -1,6 +1,15 @@
 /** @type {import('@remix-run/dev').AppConfig} */
-module.exports = {
+export default {
   appDirectory: "pages",
-  ignoredRouteFiles: ["**/.*"],
-  serverModuleFormat: "cjs",
+  ignoredRouteFiles: [
+    ".*",
+    "**/*.res",
+    "**/*.bs.js",
+    "**/*.css",
+    "**/*.test.{js,jsx,ts,tsx}",
+  ],
+  postcss: true,
+  dev: {
+    manual: true,
+  },
 };

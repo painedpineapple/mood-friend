@@ -1,3 +1,1 @@
-import { make } from "../pages-src/root.bs";
-
-export default make;
+export { make as default, links } from "./root.bs";

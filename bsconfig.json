@@ -16,7 +16,10 @@
       "in-source": true
     }
   ],
+  "ppx-flags": [
+    ["@greenlabs/res-tailwindcss/ppx", "--path ./styles/styles.build.css"]
+  ],
   "suffix": ".bs.js",
   "jsx": { "version": 4, "mode": "automatic" },
-  "bs-dependencies": ["@rescript/react"]
+  "bs-dependencies": ["@rescript/core", "@rescript/react"]
 }
