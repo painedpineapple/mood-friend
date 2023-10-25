@@ -1,5 +1,6 @@
 {
   "name": "mood-friend",
+  "private": true,
   "dependencies": {
     "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^18.0.0",

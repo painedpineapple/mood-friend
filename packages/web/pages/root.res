@@ -14,9 +14,12 @@ let make = () => {
       <Remix.Links />
     </head>
     <body>
-      // <Providers>
-      <Remix.Outlet />
-      // </Providers>
+      <div>
+        {"Hcello"->React.string}
+        // <Providers>
+        <Remix.Outlet />
+        // </Providers>
+      </div>
       <Remix.ScrollRestoration />
       <Remix.Scripts />
       <Remix.LiveReload />
