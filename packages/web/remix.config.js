@@ -12,5 +12,5 @@ module.exports = {
     "**/*.css",
     "**/*.test.{js,jsx,ts,tsx}",
   ],
-  transpileModules: ["rescript"],
+  serverDependenciesToBundle: [/^rescript.*/],
 };
