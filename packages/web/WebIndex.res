@@ -1,5 +1,9 @@
 open ReactDOM.Client
 
+%%raw(`
+  import "../../styles/styles.build.css";
+`)
+
 @val @scope("document")
 external getElementById: string => Dom.element = "getElementById"
 

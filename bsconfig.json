@@ -2,7 +2,7 @@
   "name": "mood-friend",
   "sources": [
     {
-      "dir": "packages/api",
+      "dir": "packages",
       "subdirs": true
     },
     {
