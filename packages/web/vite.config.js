@@ -7,15 +7,10 @@ export default defineConfig({
   plugins: [
     react(),
     createReScriptPlugin({
-      // loader: {
-      //   output: "./lib/js",
-      //   suffix: ".mjs",
-      // },
+      loader: {
+        output: "./",
+        suffix: ".bs.js",
+      },
     }),
   ],
-  // build: {
-  //   lib: {
-  //     entry: "src/Main.res",
-  //   },
-  // },
 });

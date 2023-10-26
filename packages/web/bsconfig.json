@@ -2,11 +2,7 @@
   "name": "mood-friend",
   "sources": [
     {
-      "dir": "packages/api",
-      "subdirs": true
-    },
-    {
-      "dir": "bindings",
+      "dir": "src",
       "subdirs": true
     }
   ],
@@ -17,7 +13,7 @@
     }
   ],
   "ppx-flags": [
-    ["@greenlabs/res-tailwindcss/ppx", "--path ./styles/styles.build.css"]
+    ["@greenlabs/res-tailwindcss/ppx", "--path ../../styles/styles.build.css"]
   ],
   "suffix": ".bs.js",
   "jsx": { "version": 4, "mode": "automatic" },
