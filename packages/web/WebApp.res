@@ -1,2 +1,6 @@
 @react.component
-let make = () => <div className=%twc("bg-blue")> {"Hello web"->React.string} </div>
+let make = () => {
+  <Providers>
+    <ConnectWalletButton />
+  </Providers>
+}
