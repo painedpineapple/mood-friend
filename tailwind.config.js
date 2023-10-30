@@ -9,7 +9,10 @@ export default {
       xl: "1440px",
     },
     padding: {
-      test: "200px",
+      1: "4px",
+      2: "8px",
+      3: "12px",
+      4: "16px",
     },
     colors: {
       blue: "#1fb6ff",
@@ -21,6 +24,9 @@ export default {
       "gray-dark": "#273444",
       gray: "#8492a6",
       "gray-light": "#d3dce6",
+    },
+    fontSize: {
+      title: "32px",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

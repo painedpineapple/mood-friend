@@ -2,6 +2,7 @@
 let make = (~children: React.element) => {
   <WalletAdapter.React_.ConnectionProvider endpoint={Env.solanaRpcUrl}>
     <WalletAdapter.React_.WalletProvider
+      autoConnect={true}
       wallets=[
         WalletAdapter.Wallets.phantomWalletAdapter(),
         WalletAdapter.Wallets.solflareWalletAdapter({"network": Env.cluster}),

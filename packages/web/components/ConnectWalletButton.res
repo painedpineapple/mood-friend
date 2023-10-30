@@ -5,16 +5,16 @@ open WebUtils
 @react.component
 let make = () => {
   let wallet = WalletAdapter.React_.use()
-  Console.log(wallet)
 
   switch wallet.publicKey->Js.Nullable.toOption {
   | Some(publicKey) =>
-    <div>
-      <div> {`Connected with ${publicKey->PublicKey.toString}`->str} </div>
-      <button> {"Disconnect"->str} </button>
+    <div className=%twc("p-4 flex flex-col content-center text-center")>
+      <div> {"Connected with "->str} </div>
+      <div> {`${publicKey->PublicKey.toString}`->str} </div>
+      <button onClick={_ => wallet.disconnect()->ignore}> {"Disconnect"->str} </button>
     </div>
   | None =>
-    <div>
+    <div className=%twc("p-4 flex flex-col content-center")>
       {wallet.wallets
       ->Array.filter(({readyState}) =>
         switch readyState {
@@ -24,15 +24,13 @@ let make = () => {
         }
       )
       ->Array.map(({adapter}) => {
-        <div key={adapter.name}>
-          <button
-            onClick={_ => {
-              Console.log((adapter.name, "select"))
-              wallet.select(adapter.name->Some)
-            }}>
-            {adapter.name->str}
-          </button>
-        </div>
+        <button
+          key={adapter.name}
+          onClick={_ => {
+            wallet.select(adapter.name->Some)
+          }}>
+          {`Connect with ${adapter.name}`->str}
+        </button>
       })
       ->arr}
     </div>
