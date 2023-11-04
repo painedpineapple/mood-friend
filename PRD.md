@@ -12,12 +12,16 @@ To provide a user-friendly platform where individuals can consistently monitor v
 
 ### Pricing Model
 
-- Users will be charged on a yet-to-be-determined cadence for accessing the app's premium features.
+Users can earn tokens through engagement streaks, which can be used to pay for their subscriptions, as detailed in the ECONOMY document.
 
 ### Incentives
 
-- Users who maintain a specific activity streak (e.g., logging metrics for X consecutive days) will receive X% of their payment back as a reward.
-- The exact percentage and streak duration will be finalized after assessing the business operation costs, especially the cost of minting cNFTs on Solana.
+- Users will receive tokens as rewards for maintaining daily entry streaks.
+- The specific token rewards for each tier are as follows:
+  - **Basic Tier**: Earn up to 0.23 tokens per week and 2 tokens for a full month of daily entries.
+  - **Silver Tier**: Earn 1 token per week and 5.67 tokens for a full month of daily entries.
+  - **Gold Tier**: Earn 2 tokens per week, 16.33 tokens for a full month of daily entries, and an additional 25 tokens for logging every day for three consecutive months.
+
 
 ## Technology
 
@@ -61,14 +65,13 @@ Users can log various metrics daily, including:
 - Users can view graphical representations of their trends over time.
 - Recommendations or tips based on the user's patterns.
 
-### Streaks & Rewards
-
-- Users can view their current streak of daily entries.
-- Details of potential cashbacks based on their streak.
-
 ## MVP
 
-The primary goal of the MVP is to validate the core idea of "Mood Friend" and demonstrate its feasibility and potential value to users. The MVP will focus on the following key components:
+- The MVP will include a basic implementation of the streaks and rewards system.
+- Users will be able to track their streaks and see an estimate of the tokens they could earn.
+- The primary focus will remain on the core features of metric tracking and visualization.
+
+It will include the following components:
 
 ### 1. **User Registration & Authentication**:
 
@@ -89,42 +92,43 @@ The primary goal of the MVP is to validate the core idea of "Mood Friend" and de
 
 - Display a simple timeline or calendar view where users can see their logged metrics for the past days.
 
-### Deliverables:
+#### Deliverables
 
-- A functional dApp where users can register, log their metrics, and view their data.
+- A functional dApp where users can not only register and log metrics but also track their streaks and potential token rewards.
 - Documentation detailing the technical architecture, challenges faced, and potential solutions for the next phases.
 - User feedback collection mechanism to gather insights and validate the value proposition of the dApp.
 
-### Success Criteria:
+### Success Criteria
 
 - Successful storage and retrieval of encrypted user data on the Solana blockchain.
-- Positive initial user feedback regarding the dApp's concept and usability.
+- Successful integration and demonstration of the streaks and rewards system, with users able to earn and track their tokens.
+- Positive user feedback on the clarity and motivational impact of the rewards system.
 
-## Additional Considerations
+### Additional Considerations
 
-### Legal & Compliance:
+### Legal & Compliance
 
-- Ensure compliance with data protection and privacy laws, especially if targeting a global audience. In the USA, consider regulations like the California Consumer Privacy Act (CCPA) and the General Data Protection Regulation (GDPR) for European users.
-- Consider terms of service, privacy policies, and disclaimers to protect both the users and the platform.
+- Assess and ensure compliance with financial and cryptocurrency regulations regarding the issuance of tokens as rewards.
+- Evaluate the implications of token rewards on taxation for both the company and the users.
 
 ### Localization & Internationalization:
 
 - Given the tech stack, consider using libraries or tools that support internationalization (i18n) and localization (l10n) in React. This will allow for easy translation and adaptation of the app for different languages and regions in the future.
 
-### Feedback Mechanism:
-
-- Implement a mechanism within the app for users to provide feedback, report issues, or suggest features.
-
 ### Updates & Maintenance:
 
 - Regularly communicate updates, bug fixes, and new features to users via platforms like GitHub and Twitter.
 
-### Security Audits:
+### Security Audits
 
-- Plan for security audits, especially given the financial and personal data involved, to ensure there are no vulnerabilities.
+- Given the financial implications of the token economy, prioritize comprehensive security audits to protect user investments and company liability.
+
+### User Education
+
+- Develop educational materials to help users understand the token economy, including how to earn, redeem, and the potential value of their tokens.
 
 ## Future Features to Consider
 
-- Integration with other health and wellness apps to gather more comprehensive data.
-- Explore additional mechanisms for increasing profits without promoting speculation or pyramid scheming.
-- Community features where users can share experiences and support each other.
+- Implementation of a detailed dashboard for users to track their subscription costs, tokens earned, and potential savings.
+- Options for users to purchase additional tokens or exchange them within the app, subject to regulatory compliance.
+- Expansion of the rewards system to include more diverse actions within the app, such as participating in _community challenges_ or wellness programs.
