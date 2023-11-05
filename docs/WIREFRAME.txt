@@ -86,6 +86,8 @@ Settings Page
 | | [ Save Settings ]                             | |
 | |   A button to save all changes made in the    | |
 | |   settings. It should be clear and accessible.| |
+| |                                               | |
+| |            [ Privacy Policy ]                 | |
 | +-----------------------------------------------+ |
 +---------------------------------------------------+
 
