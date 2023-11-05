@@ -22,7 +22,6 @@ Users can earn tokens through engagement streaks, which can be used to pay for t
   - **Silver Tier**: Earn 1 token per week and 5.67 tokens for a full month of daily entries.
   - **Gold Tier**: Earn 2 tokens per week, 16.33 tokens for a full month of daily entries, and an additional 25 tokens for logging every day for three consecutive months.
 
-
 ## Technology
 
 ### Tech Stack
@@ -41,6 +40,11 @@ Users can earn tokens through engagement streaks, which can be used to pay for t
 - **Security**:
   - The data will be encrypted before storage to ensure user privacy and data integrity.
   - Decryption will occur on the client-side using the user's Solana keypair, ensuring that only the user has access to their personal data.
+
+#### Data Encryption for Life Metrics
+
+- **Encryption at Log Time**: When a user logs life metrics, the data will be encrypted before being stored on the blockchain. The encryption ensures that logs are not publicly viewable.
+- **Encryption Method**: The implementation of the encryption method is TBD. However, industry-standard encryption algorithms and secure key management practices will be used.
 
 ## Features
 
@@ -82,6 +86,12 @@ It will include the following components:
 
 - Implement the ability for users to log their daily metrics, focusing on the most critical ones like "High Mood", "Low Mood", and "Notes".
 - Provide a simple user interface for data input.
+
+#### Eligibility Criteria
+
+- **Minimum Life Metrics**: To qualify for streak rewards, a user must be actively tracking at least 5 life metrics.
+- **Recent Logs Requirement**: Only logs for 'Today' or 'Yesterday' are considered for streak rewards to encourage consistent, recent engagement.
+- **UI Clarity**: The requirements for streak rewards must be clearly communicated during the user onboarding process and visible within the UI when users are logging their metrics.
 
 ### 3. **Data Storage & Retrieval**:
 
