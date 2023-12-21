@@ -161,3 +161,10 @@ Charts Screen
 | |   include bar graphs, pie charts, etc.       | |
 | +-----------------------------------------------+ |
 +---------------------------------------------------+
+
+---
+
+Need a manage life metrics screen that shows list of metrics, ability to create them, delete them, or deactivate them.
+
+There should be a button to this screen from the settings page
+the [ Add New Life Metric ] button on the life metrics screen should be changed to [ Manage Life Metric ] and link to the manage metrics screen

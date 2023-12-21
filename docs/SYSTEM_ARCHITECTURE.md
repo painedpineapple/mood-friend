@@ -130,7 +130,7 @@ The backend architecture will be structured around microservices to manage inter
 - `initialize_reward`: Sets up a reward account or Program Derived Address (PDA) for a user.
 - `calculate_reward`: Computes the reward amount based on the user's activity and streaks.
 - `claim_reward`: Allows users to claim their earned rewards.
-- `burn_mood_token`: Destroys MOOD tokens to remove them from circulation after they are used for payments.
+- `burn_mood_token`: Destroys MOODI tokens to remove them from circulation after they are used for payments.
 
 ### Life Metric Management Program
 
@@ -154,15 +154,15 @@ The backend architecture will be structured around microservices to manage inter
 - `update_user_settings`: Modifies user settings, like notification timing and preferences.
 - `sync_email_notifications`: Synchronizes user preferences with the off-chain email notification service.
 
-### Token Management Program (MOOD Token)
+### Token Management Program (MOODI Token)
 
-**Purpose**: Manages the MOOD token lifecycle, including minting, burning.
+**Purpose**: Manages the MOODI token lifecycle, including minting, burning.
 
 **Instructions**:
 
-- `initialize_mood_token`: Sets up the initial parameters and configurations for the MOOD token.
-- `mint_mood_token`: Mints new MOOD tokens into circulation under defined conditions.
-- `burn_mood_token`: Removes MOOD tokens from circulation, often used in token economy balancing.
+- `initialize_mood_token`: Sets up the initial parameters and configurations for the MOODI token.
+- `mint_mood_token`: Mints new MOODI tokens into circulation under defined conditions.
+- `burn_mood_token`: Removes MOODI tokens from circulation, often used in token economy balancing.
 
 These programs and instructions will ensure that the app's token economy is sustainable and that user engagement is properly incentivized. The programs will need to be built with security and scalability in mind, and thorough testing will be essential to ensure proper operation within the Solana ecosystem.
 
