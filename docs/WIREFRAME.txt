@@ -1,6 +1,6 @@
 Home Screen (Not Connected)
 +---------------------------------------------------+
-|                       Mood Friend                 |
+|                       Moodi                 |
 | +-----------------------------------------------+ |
 | |                    LOGO                       | |
 | |   A prominent and appealing logo of the Mood  | |
@@ -18,10 +18,10 @@ Home Screen (Not Connected)
 
 Home Screen (Connected)
 +---------------------------------------------------+
-| Mood Friend      | [Settings] [Log Metric] [Charts] |
+| Moodi      | [Settings] [Log Metric] [Charts] |
 | +-----------------------------------------------+ |
 | |                    LOGO                       | |
-| |   The Mood Friend logo persists at the top,   | |
+| |   The Moodi logo persists at the top,   | |
 | |   similar to the not connected state, but     | |
 | |   smaller to accommodate more elements.       | |
 | |                                               | |
@@ -62,7 +62,7 @@ Home Screen (Connected)
 
 Settings Page
 +---------------------------------------------------+
-| Mood Friend                                       |
+| Moodi                                       |
 | [Home] [Log Metric] [Charts]                      |
 | +-----------------------------------------------+ |
 | |                 Settings                      | |
@@ -93,7 +93,7 @@ Settings Page
 
 
 +---------------------------------------------------+
-| Mood Friend                                       |
+| Moodi                                       |
 | [Home] [Settings] [Charts]                        |
 | +-----------------------------------------------+ |
 | |                 Log Daily Metrics             | |
@@ -135,7 +135,7 @@ Settings Page
 
 Charts Screen
 +---------------------------------------------------+
-| Mood Friend                                       |
+| Moodi                                       |
 | [Home] [Settings] [Log Metric]                    |
 | +-----------------------------------------------+ |
 | |                 Trends & Insights             | |

@@ -144,7 +144,7 @@ The backend architecture will be structured around microservices to manage inter
 
 **Anti-Gaming Measure**: To prevent gaming of streak rewards, the Solana wallet address will be used as one of the seeds for the PDA that manages the cNFT metadata. This measure ties the reward eligibility to the original wallet that created the cNFT, thereby preventing abuse through transfers.
 
-### MoodFriend Master Program
+### Moodi Master Program
 
 **Purpose**: Manages overall app settings and orchestration of different functionalities.
 

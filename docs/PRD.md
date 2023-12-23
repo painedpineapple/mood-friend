@@ -1,8 +1,8 @@
-# Mood Friend Product Requirement Document (PRD)
+# Moodi Product Requirement Document (PRD)
 
 ## Overview
 
-Mood Friend is a decentralized application (dApp) designed to help users track various aspects of their daily well-being through "Life Metrics". By analyzing these metrics and their correlations, users can gain insights into their emotional and physical well-being, enabling them to make informed decisions to enhance their quality of life.
+Moodi is a decentralized application (dApp) designed to help users track various aspects of their daily well-being through "Life Metrics". By analyzing these metrics and their correlations, users can gain insights into their emotional and physical well-being, enabling them to make informed decisions to enhance their quality of life.
 
 ## Objective
 

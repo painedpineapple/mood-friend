@@ -1,10 +1,10 @@
-# Mood Friend Privacy Policy
+# Moodi Privacy Policy
 
 **Effective Date:** 05 November 2023
 
 ## Introduction
 
-Mood Friend ("we", "our", or "us") is committed to protecting the privacy of its users ("user", "you", or "your"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Mood Friend application (the "Application"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the Application.
+Moodi ("we", "our", or "us") is committed to protecting the privacy of its users ("user", "you", or "your"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Moodi application (the "Application"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the Application.
 
 ## Collection of Your Information
 

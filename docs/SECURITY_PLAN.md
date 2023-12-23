@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Overview of the security measures for the Mood Friend app.
+Overview of the security measures for the Moodi app.
 
 ## Authentication and Authorization
 
