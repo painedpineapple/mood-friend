@@ -5,14 +5,15 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-life_metric = "4sRLTSXDWEiPGjE85yPyrs5BwJXiFWkooTiXxncGWFQz"
+life-metric = "moiffJUWfXvFu11Yzo3CxDEuu84UmCiEct5gDY6R3rj"
+moodi = "mooDiEwJRfno2EaH5PGEfsCWDABb7uHF1DKCdnfwxbB"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "Localnet"
-wallet = "/home/logan/.config/solana/id.json"
+wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

@@ -1,12 +1,12 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
-import { LifeMetric } from "../target/types/life_metric";
+import { Moodi } from "../target/types/moodi";
 
-describe("life-metric", () => {
+describe("moodi", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace.LifeMetric as Program<LifeMetric>;
+  const program = anchor.workspace.Moodi as Program<Moodi>;
 
   it("Is initialized!", async () => {
     // Add your test here.

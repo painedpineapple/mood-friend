@@ -1,12 +1,12 @@
 [package]
-name = "life-metric"
+name = "moodi"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "life_metric"
+name = "moodi"
 
 [features]
 no-entrypoint = []
