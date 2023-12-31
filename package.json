@@ -3,7 +3,7 @@
     "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
     "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
     "test": "bun get:keypairs && anchor test",
-    "get:keypairs": "cp keypairs/* target/deploy/",
+    "get:keypairs": "cp program-keypairs/* target/deploy/",
     "build": "anchor build && bun get:keypairs"
   },
   "dependencies": {
