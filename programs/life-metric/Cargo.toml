@@ -16,4 +16,6 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.29.0"
+anchor-lang = {version = "0.29.0"}
+borsh = "=0.10.3"
+solana-program = "1.17.13"
